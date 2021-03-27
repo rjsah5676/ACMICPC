@@ -1,3 +1,7 @@
+//9184
+//https://www.acmicpc.net/problem/9184
+//recursive + dp
+
 #include<stdio.h>
 
 int cache[101][101][101]={0};
