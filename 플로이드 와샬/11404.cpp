@@ -3,7 +3,6 @@
 using namespace std;
 
 int n,m;
-//int res[102][102];
 int v[102][102];
 
 int main()
@@ -15,8 +14,8 @@ int main()
 		}
 	}
 	for(int i=0;i<m;i++) {
-		int a,b,c;
-		cin>>a>>b>>c;
+		int a,b;
+		cin>>a>>b;
 		if(v[a-1][b-1]>c) v[a-1][b-1]=c;
 	}
 	for(int k=0;k<n;k++) {
